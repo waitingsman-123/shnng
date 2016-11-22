@@ -1,0 +1,46 @@
+#head{
+	height: 0;
+}
+.z_con-con1 span{
+	width: 55%;
+}
+.z_con-con1 div{
+	width: 50%;
+}
+.z_con-con1{
+	padding-top: 11em;
+}
+.building1-half-t{
+	width: 270px;
+	right: -80px;
+}
+.building1-half-b{
+	width: 270px;
+	right: -45px;
+}
+.building2-half-t{
+	width: 280px;
+}
+.z_con-con3 div img{
+	width: 44%;
+}
+.building2-half-b{
+	width: 290px;
+	left: -63px;
+}
+.building3-half-t{
+	width: 290px;
+}
+.z_con-con3{
+	padding-top: 9.625em;
+}
+.building3-half-b{
+	width: 290px;
+	right: -59px;
+}
+.scrollt{
+	max-height: 500px;
+}
+
+
+

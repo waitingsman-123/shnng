@@ -1,0 +1,28 @@
+@media screen and (min-width: 641px) and (max-width: 960px) {
+
+}
+@media screen and (max-width: 640px) {
+	.line_title {
+    width: 90%;
+}
+.j_content .line_title>i {
+	    width: 10%;
+	    font-size: 1em;
+	}
+.j_content .line_title>span {
+		font-size: 1em;
+	    width: 80%;
+}
+.swiper-container{
+	width: 98%;
+}
+.z_waterfall ul{
+	width: 100%;
+}
+.z_top{
+	width: 12%;
+	left: 48%;
+	display: block;
+}
+
+}

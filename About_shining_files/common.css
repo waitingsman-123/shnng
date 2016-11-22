@@ -1,0 +1,82 @@
+html,body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+p,dd,span{font-family: arial;}
+
+img{width: 100%;}
+a{-webkit-tap-highlight-color:transparent;}
+
+.j_contact_us{
+	width: 100%;
+}
+.line_title span {
+	color: #616161;
+	font-family: arial;
+	font-size: 1.625em;
+	font-weight: bold;
+}
+.line_title{
+	margin: 0 auto;
+    text-align: center;
+}
+/*滚到顶部*/
+.z_top{
+	width: 5%;
+	position: absolute;
+	bottom: 0;
+	/*left: 48%\0;*/
+	margin-left: -2.5%;
+	left: 50%;
+	cursor: pointer;
+	z-index: 100;
+	max-width: 69px;
+	
+}
+div.z_top{
+	display: none;
+	max-height: 52px;
+	visibility: hidden;
+}
+.z_top a{-webkit-tap-highlight-color:transparent;}
+.z_top img{
+	width: 100%;
+	display: block;
+}
+#foot{
+	overflow: hidden;
+}
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+
+	.line_title>span {font-size: 1.2em;}
+
+	.line_title>i{margin: 0 0;}
+
+	.z_top{width: 15%;display: none;}
+
+	.j_tel>span{display: block;}
+
+	.j_contact_us .j_contact_us_list {
+
+	padding-bottom: 3em;
+
+	}
+
+}
+/*@media only screen and (min-width: 641px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}*/
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+
+	.j_contact_us_list {
+
+	padding-bottom: 5em;
+
+	}
+
+}

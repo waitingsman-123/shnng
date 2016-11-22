@@ -1,0 +1,174 @@
+.j_contact_us .longtitle{max-width: 48em;}
+#content{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#frame{
+	background: white;
+	padding: 10px;
+	padding-bottom: 22px;
+}
+#water_big_txt{
+	position: absolute;
+	left: 14px;
+	bottom:5px;
+	font-size: 12px;
+}
+#content .line_title span {
+	color: #616161;
+	font-family: arial;
+	padding-left:5%;
+	margin-right: 5%;
+	font-size: 1.625em;
+}
+#content .line_title{
+	width: 80%;
+	margin: 0% auto;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom:8%;
+}
+#content .line_title i{
+	display: inline-block;
+	background:url("../img/line_yellow.png") no-repeat; 
+	margin-bottom: 1%;
+	width: 10%;
+	height: 2px;
+	overflow: hidden;
+}
+/*大图*/
+.swiper-container{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.swiper-slide img {
+	width: 100%;
+}
+/*分页器*/
+.swiper-pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #b4b4b4;
+  margin: 0 5px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #cfdb00;
+}
+/*瀑布流*/
+.z_datas{
+	height: 0;
+	overflow: hidden;
+}
+.z_waterfall{
+	width: 100%;
+	/*background: #e5e5e5;*/
+	/*padding-top: 15%;*/
+	/*padding: 0.5em;*/
+}
+.z_waterfall ul{
+	width: 98%;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+}
+.list{
+	position: absolute;
+	padding:0.3%;
+	box-sizing: border-box;
+}
+.min_img{
+	display:block;
+	overflow: hidden;
+	position: relative;
+}
+.min_img>img{
+	width:100%;
+	float: left;
+}
+.list_mask{
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	left:0%;
+	right:0%;
+	top:0%;
+	bottom:0%;
+	/*display: none;*/
+	opacity: 0;
+	filter:alpha(opacity=0);
+	background-color: rgb(0,0,0)\9;
+	/*filter:alpha(opacity=80);*/
+	color: #cfdb00;
+
+}
+/*.list:hover .lisk_mask{
+	opacity: 1;
+	filter:alpha(opacity=1);
+}*/
+.mask_green_wrap{
+	display:table;
+	height:100%;
+	text-align:center;
+	width:100%;
+}
+.mask_green{
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+	color: white;
+}
+.mask_green img{
+	width: 9%;
+	}
+#lightning{
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.55);
+	background: #000\9;
+	filter:alpha(opacity=90)\9;
+	text-align: center;
+	cursor:pointer;
+	overflow:-moz-scrollbars-vertical;
+	/*overflow-y:scroll;*/
+	display: none;
+}
+.magnifier{
+	width: 31px;
+	height: 32px;
+	background: url("../img/magnifier.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+@media screen and (max-width: 640px){
+	.magnifier{
+		width: 15.5px;
+		height: 16px;
+	}
+}
+#x{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 31px;
+	height: 31px;
+}
+
+

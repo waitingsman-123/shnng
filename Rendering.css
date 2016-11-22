@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	width: 100vw;
+	overflow: hidden;
+	height: 1080px;
+	background: transparent;
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+#run {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 9999px;
+	/*height: 1080px;*/
+}
+
+#run>img {
+	max-width: 100%;
+	display: block;
+	/*height: 1080px;*/
+	background: orange;
+	
+	float: left;
+	
+	
+}
+.point {
+	list-style: none;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -95px;
+}
+
+.point>li {
+	width: 15px;
+	height: 15px;
+	background: black;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+}
+/*瀑布流++++++++=================================瀑布流*/
+
+#box {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#box>ul {
+	float: left;
+	margin-left: 1.6%;
+	width: 23%;
+	list-style: none;
+}
+
+
+#box>ul>.li{
+	width: 100%;
+	background: orange;
+	margin-bottom: 10px;
+	background: red;
+	background-size:100%  100%;
+	display: block;
+}
+
+
+#box>ul>.li:hover{
+	opacity: 0.3;
+	
+}
+
+
+
+/*为了hover的效果*/
+#box>ul>.li>.div{
+	background: "url(Rendering_shining_files/fangda1.png)";
+	z-index: 20;
+	opacity: 1;
+}
+#box>ul>.li:hover .div{
+	opacity: 1;
+	
+}
+* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body,
+			html {
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+			}
+			
+			a {
+				text-decoration: none;
+				color: black;
+				display: block;
+			}
+			
+			ul {
+				list-style: none;
+				display: block;
+			}
+			
+			.wrap {
+				width: 98vw;
+				position: absolute;
+				left: 1vw;
+				top: 1020px;
+			}
+			
+			@media only screen and (min-width: 992px) {
+				.li {
+					width: 25%;
+				}
+			}
+			
+			@media only screen and (min-width: 481px) and (max-width: 992px) {
+				.li {
+					width: 33.33%;
+				}
+			}
+			
+			@media only screen and (max-width: 480px) {
+				.li {
+					width: 50%;
+				}
+			}
+			
+			.li {
+				padding: 0.3%;
+				box-sizing: border-box;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: block;
+			}
+			
+			.li>a {
+				width: 100%;
+				position: relative;
+			}
+			
+			.li img {
+				width: 100%;
+				display: block;
+			}
+			
+			.li>div {
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+			.masking {
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+				background: rgba(0, 0, 0, 0.4);
+				display: none;
+			}
+			
+			.masking .box img {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.masking .box {
+				border: 10px solid red;
+				position: absolute;
+			}
+		

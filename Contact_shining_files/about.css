@@ -1,0 +1,304 @@
+body{width: 100%;}
+
+.aboutwrap{
+
+	width: 100%;
+
+	margin:  0 auto;
+
+
+}
+
+.j_content_wrap{
+
+	margin:  0 auto;
+
+}
+
+@media only screen and (max-width: 640px){
+
+	.j_content_wrap{
+
+		width: 100%;
+
+	}
+
+}
+
+
+
+.footer_wrap1{width: 100%;margin:  0 auto; padding: 0px 0 0;/*max-width: 1127px;*/}
+
+.j_contact_us{
+	display: none;
+	max-width: 980px;
+
+	margin:  0 auto;
+
+}
+
+.bim_h{
+	display: none;
+	position: absolute;
+
+	top: 66px;
+
+	z-index: 2;
+
+}
+
+.title_wrap{margin: 0 auto;
+
+    max-width: 25em;
+
+    min-width: 8em;}
+
+
+
+.j_content{text-align: center;width: 100%;margin: 0 auto;}
+.share_logo_wrap{
+	/*width: 71%;*/
+	margin: 0 auto;
+}
+.share_logo_wrap img{
+	width: 100%;
+}
+.about_map{
+	background: url(../img/world_map.png) center center no-repeat;
+  	/*background-size: 78% 86%;*/
+  	/*background-position: 71% 87%;*/
+  	background-color: #e3e3e3;
+  	padding-bottom: 2em;
+}
+.j_content>.j_content_img{margin: 0 auto;width: 80%;max-width: 250px;padding-top: 3em;}
+
+/*.j_content>div>img{width: 100%;max-width: 350px;}*/
+
+.j_content_text{width:490px;text-align: left;padding-top: 100px;padding-left: 10px;	}
+
+.j_content_text p{padding-bottom: 2em;line-height: 2em;font-size: 1em;word-break: break-all;font-weight: lighter;}
+
+
+
+.title_wrap{margin:0 auto;
+
+max-width: 25em;min-width: 8em;
+
+overflow: hidden;
+
+}
+
+.about_title h3{
+	font-size: 1.8em;
+	margin-bottom: 20px;
+}
+
+.line_title {
+
+	width: 98%;
+
+	height: 100%;
+
+	height: 5em;
+
+	margin: 0 auto;
+
+	text-align: center;
+
+}
+
+.line_title>i{
+
+	display: inline-block;
+
+	font-size: 1.625em;
+
+	width: 25%;
+
+	height: 5em;
+
+	background: url(../img/line_yellow.png) no-repeat;
+
+	background-position: center;
+
+	float: left;
+
+	
+
+}
+
+.line_title>span{
+
+	display: inline-block;
+
+	font-size: 1.625em;
+
+	height: 5em;
+
+	width: 50%;
+
+	line-height: 100%;
+
+	line-height: 5em;
+
+	max-height: 5em;
+
+	float: left;
+
+}
+
+.contact_content_wrap{
+			position: relative;
+			text-align: center;
+			padding-top: 7em;
+			
+			padding-bottom: 17em;
+			background:url(../img/contact_point_bg.png) no-repeat;
+			background-color: #f5f5f5;
+  			background-position: center 69px;
+		}
+		.mail_wrap img{
+			vertical-align: middle;
+			margin-right: 7px;
+			width: 32px;
+		}
+		.con_wrap{
+			margin-bottom: 30px;
+		}
+		.mail_wrap span{
+			font-size: 1.4em;
+			vertical-align: middle;
+			font-weight: bold;
+		}
+		.mail_wrap em{
+			font-style: normal;
+			vertical-align: middle;
+			font-size: 1.1em;
+			color: #595757;
+		}
+		.mail_wrap{
+			margin-bottom: 5em;
+		}
+		.con_wrap span{
+			font-size: 1.4em;
+			vertical-align: middle;
+			font-weight: bold;
+		}
+		.con_wrap em{
+			font-weight: bold;
+			font-style: normal;
+			vertical-align: middle;
+			font-size: 1.1em;
+			color: #595757;
+		}
+		.contact_phone_wrap{
+			width: 75%;
+			margin: 0 auto;
+			overflow: hidden;
+			zoom:1;
+			font-size: 0.8em;
+  			padding-left: 23%;
+  			min-width: 640px;
+		}
+		.contact_phone_list{
+			float: left;
+			width: 33%;
+			position: relative;
+			text-align: left;
+			color: #595757;
+		}
+		.contact_phone_list div{
+			margin-right: 7px;
+			float: left;
+		}
+		.other_one_list{
+			width: 25%;
+			min-width: 172px;
+		}
+		.other_two_list{
+			width: 20%;
+			min-width: 141px;
+		}		
+		.other_three_list{
+			width:50%;
+			min-width: 323px;
+		}
+		#phone_num{
+			position: absolute;
+			bottom: 0;
+			margin-bottom: 11px;
+			margin-left: 3px;
+		}
+		.contact_background{
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+		.contact_background img{
+			width: 100%;
+		}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+
+	.j_content>div>img{max-width: 170px;}
+
+	.j_content>.j_content_text{width: 95%;word-break: break-all;}
+
+	.line_title{width: 80%;}
+
+	.line_title>i {
+
+	    width: 25%;
+
+	    font-size: 1em;
+
+	}
+
+	.line_title>span {
+
+		font-size: 1em;
+
+	    width: 50%;
+
+	}
+
+	.j_content_text {
+
+    width: 95%;
+
+}
+
+	.j_content_text p {
+
+    font-size: 0.9em;
+
+
+
+}
+
+.footer_wrap1 {padding-top: 0px;}
+
+}
+
+
+
+.share_logo_wrap ul li{
+	float: left;
+	/* width: 129px; */
+	height: 75px;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-right: 59px;
+}
+.share_logo_wrap img{
+	/*width: 100%;*/
+}
+.clear{
+	overflow: hidden;
+	zoom:1;
+}
+/*.share_logo_wrap .last{
+	margin-right: 0;
+}*/

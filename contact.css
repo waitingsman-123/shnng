@@ -1,0 +1,43 @@
+.conTitle{
+	width: 100%;
+	height: 489px;
+	background: url(Contact_shining_files/contact_place.png) no-repeat 0 200px ;
+	position: relative;
+	background-size: 100% 289px;	
+	z-index: 50;
+}
+
+.coname{
+	position: absolute;
+	left: 35%;
+	font-weight: bold;
+	top: 50px;
+	font-size: 21px;
+}
+.tt{
+	position: absolute;
+	left: 25%;
+	height: 200px;
+	opacity: 0.6;
+}
+.coemail{
+	position: absolute;
+	left: 35%;
+	font-weight: bold;
+	top: 90px;
+	font-size: 21px;
+}
+#call{
+	position: relative;
+	left: 28%;
+	font-weight: bold;
+	top: 150px;
+	font-size: 16px;
+}
+.pnoone{
+	position: absolute;
+	left: -2%;
+	font-weight: bold;
+	top: 1px;
+	font-size: 16px;
+}

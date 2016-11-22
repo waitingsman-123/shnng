@@ -1,0 +1,92 @@
+.bimCon>div{
+	width: 100%;
+	height: 615px;
+	background: #E5E5E5;
+}
+#bimCon{
+	position: relative;
+	
+}
+#bimCon1{
+	position: relative;
+}
+#bimCon1>div:nth-child(1){
+	font-size: 30px;
+	line-height: 35px;
+	width: 30px;
+	text-align: center;
+	height: 30px;
+	position: absolute;
+	top: 100px;
+	left: 21%;
+	border-radius:5px ;
+	border: 1px solid black;
+}
+#bimCon1>div:nth-child(2){
+	font-size: 30px;
+	line-height: 35px;
+	
+	text-align: center;
+	height: 30px;
+	position: absolute;
+	top: 100px;
+	left: 23%;
+	border-radius:5px ;
+	
+}
+#bimCon1>div:nth-child(3){
+	
+	line-height: 20px;
+	width: 380px;
+	text-align: left;
+	height: 30px;
+	position: absolute;
+	top: 150px;
+	left: 23%;
+	border-radius:5px ;
+	
+}
+.bimP1{
+	position: absolute;
+	top: 230px;
+	left: 23%;
+	z-index: 40;
+	opacity: 0.9;
+}
+.bimP2{
+	position: absolute;
+	top: 230px;
+	left: 29%;
+	
+	
+}
+.bimP3{
+	position: absolute;
+	top: 230px;
+	left: 35%;
+	
+}
+
+.build1{
+	position: absolute;
+	left: 55%;
+}
+.build2{
+	position: absolute;
+	left: 51.9%;
+}
+
+.build4>img:nth-child(1){
+	position: absolute;
+	left: 3.4%;
+}
+
+.build4>img:nth-child(2){
+	position: absolute;
+	left: 55%;
+}
+.build5{
+	position: absolute;
+	left: 51.25%;
+}
+

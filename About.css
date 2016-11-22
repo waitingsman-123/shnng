@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#title {
+	width: 100%;
+	height: 70px;
+	background: url(shining_files/shininglogo.png) #1B1B1B no-repeat;
+	background-position-y: center;
+	background-position-x: 21vw;
+}
+#aboutTitle{
+	width: 100%;
+	height: 600px;
+	background: #E3E3E3 ;
+	position: relative;
+}
+#aboutTitle1{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+}
+.aboutT1{
+	font-size: 25px;
+	position: absolute;
+	top: 50px;
+	left: 5px;
+}
+.aboutT2{
+	font-size: 16px;
+	position: absolute;
+	top: 120px;
+	line-height: 35px;
+	left: 140px;
+	width: 500px;
+}
+.aboutT3{
+	font-size: 16px;
+	position: absolute;
+	top: 300px;
+	line-height: 35px;
+	left: 140px;
+	width: 500px;
+}
+.aboutT4{
+	margin: 30px;
+	float: left;
+	width: 1000px;
+	margin-left: -105px;
+	position: absolute;
+	top: 460px;
+	left: 130px;
+}
+.aboutT4 img{
+	margin-right: 50px;
+}
+
+@media screen and (max-width:719px)and (min-width:455px){
+	.aboutT1{
+	font-size: 22px;
+	position: absolute;
+	top: 50px;
+	left: 5px;
+}
+.aboutT2{
+	font-size: 14px;
+	position: absolute;
+	top: 80px;
+	line-height: 35px;
+	left: 90px;
+	width: 80%;
+}
+.aboutT3{
+	font-size: 14px;
+	position: absolute;
+	top: 250px;
+	line-height: 35px;
+	left: 90px;
+	max-width: 80%;
+}
+.aboutT4{
+	text-align: left;
+	margin: 30px;
+	float: left;
+	margin-top: 50px;
+	max-width: 80%;
+	margin-left: -105px;
+	position: absolute;
+	top: 400px;
+	left: 130px;
+}
+.aboutT4 img{
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+#aboutTitle{
+	height: 730px;
+}
+
+
+
+}
+@media screen and (max-width:454px)and (min-width:401px){
+		.aboutT1{
+	font-size: 22px;
+	position: absolute;
+	top: 50px;
+	left: 5px;
+}
+.aboutT2{
+	font-size: 14px;
+	position: absolute;
+	top: 80px;
+	line-height: 35px;
+	left: 90px;
+	width: 80%;
+}
+.aboutT3{
+	font-size: 14px;
+	position: absolute;
+	top: 250px;
+	line-height: 35px;
+	left: 90px;
+	max-width: 80%;
+}
+.aboutT4{
+	text-align: left;
+	margin: 30px;
+	float: left;
+	margin-top: 50px;
+	max-width: 80%;
+	margin-left: -105px;
+	position: absolute;
+	top: 440px;
+	left: 130px;
+}
+.aboutT4 img{
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+	#aboutTitle{
+	height: 860px;
+}
+#adsmall{
+		width: 290px;
+		height: 130px;
+		left: 18%;
+		position: relative;
+		
+	}
+}
+
+@media screen and (max-width:400px){
+	#aboutTitle{
+	height: 860px;
+}
+.aboutT4{
+	text-align: left;
+	margin: 30px;
+	float: left;
+	margin-top: 50px;
+	max-width: 80%;
+	margin-left: -105px;
+	position: absolute;
+	top: 440px;
+	left: 130px;
+}
+
+
+
+	.aboutT1{
+	font-size: 22px;
+	position: absolute;
+	top: 50px;
+	left: 5px;
+}
+.aboutT2{
+	font-size: 14px;
+	position: absolute;
+	top: 80px;
+	line-height: 35px;
+	left: 90px;
+	width: 80%;
+}
+.aboutT3{
+	font-size: 14px;
+	position: absolute;
+	top: 250px;
+	line-height: 35px;
+	left: 90px;
+	max-width: 80%;
+}
+.aboutT4{
+	text-align: left;
+	margin: 30px;
+	float: left;
+	margin-top: 50px;
+	max-width: 80%;
+	margin-left: -105px;
+	position: absolute;
+	top: 480px;
+	left: 130px;
+}	
+#adsmall{
+		width: 290px;
+		height: 130px;
+		left: 18%;
+		position: relative;
+		
+	}
+
+
+}
